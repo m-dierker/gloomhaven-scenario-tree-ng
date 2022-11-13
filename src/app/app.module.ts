@@ -22,12 +22,14 @@ import { environment } from "environments/environment";
 import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { AngularFireAuthModule } from "@angular/fire/auth";
-import { AppRoutingModule } from './app-routing.module';
-import { LoginComponent } from './login/login/login.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { LoginComponent } from "./login/login.component";
+import { HomeComponent } from "./home.component";
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
     TreeComponent,
     ScenarioInfoComponent,
     ScenarioInfoDialogComponent,
