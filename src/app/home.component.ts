@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { AssetService } from "./asset.service";
 import { TreeLogicService } from "./tree-logic.service";
 import { MatSnackBar } from "@angular/material/snack-bar";
-import { AngularFireAuth } from "@angular/fire/auth";
+import { AuthService } from "./auth.service";
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     private assetService: AssetService,
     private treeLogicService: TreeLogicService,
     private snackBar: MatSnackBar,
-    private afAuth: AngularFireAuth
+    private auth: AuthService
   ) {}
   ngOnInit() {
     this.assetService
