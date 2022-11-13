@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "glo2mhaven-tracker": {
+      "hosting": {
+        "gloomhaven-scenario-tree-ng": [
+          "glo2mhaven-tracker"
+        ]
+      }
+    }
+  }
+}
