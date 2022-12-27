@@ -1,9 +1,9 @@
 {
   "targets": {
-    "glo2mhaven-tracker": {
+    "mdierker-gh-scenario-viewer": {
       "hosting": {
         "gloomhaven-scenario-tree-ng": [
-          "glo2mhaven-tracker"
+          "mdierker-gh-scenario-viewer"
         ]
       }
     }
